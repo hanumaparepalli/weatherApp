@@ -1,0 +1,66 @@
+.container {
+  background-image: linear-gradient(to bottom, #eb3495, #34e5eb);
+  background-size: cover;
+  height: 100vh;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  margin: 20px;
+}
+.input {
+  color: #131415;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  height: 40px;
+  width: 320px;
+  padding-left: 120px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  outline: none;
+}
+.title {
+  color: #34e5eb;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.button {
+  align-self: flex-start;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+.results {
+  color: aquamarine;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
